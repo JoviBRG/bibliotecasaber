@@ -1,4 +1,3 @@
-80% de armazenamento usado … Se você atingir o limite, não será possível criar, editar ou fazer upload de arquivos. Aproveite 30 GB de armazenamento por R$ 4,50 R$ 1 por mês, durante 3 meses.
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,7 +21,7 @@
     
     //MONTAR COMANDO SQL
 
-    $sql = "INSERT INTO livro(isbn, titulo, anoPublicacao, editora, qtdTotal, qtdDisponivel) VALUES (?,?,?,?,?,?)";
+    $sql = "INSERT INTO livro(isbn, titulo, ano_publicacao, editora, qtd_total, qtd_disponivel) VALUES (?,?,?,?,?,?)";
 
     //PREPARAR COMANDO SQL PARA SER EXECUTADO E RELACIONAR O COMANDO QUE SERÁ EXECUTADO
 
@@ -35,11 +34,11 @@
     //EXECUTAR COMANDO
     if ($comando->execute())
     {
-        echo "<h1>Livro cadastrado<\h1>";
+        echo "<h1>Livro cadastrado</h1>";
     }
     else
     {
-        echo "<h1>Erro!<\h1>";
+        echo "<h1>Erro!</h1>";
     }
 
     ?>

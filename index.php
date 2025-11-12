@@ -19,10 +19,10 @@
             <a href="cadastrar_livro.php">Cadastrar Livro</a>
           </div>
           <div class="item bg-gradient">
-            <a href="cadastrar_usuario.php">Listar Livros</a>
+            <a href="livro_listar.php">Listar Livros</a>
           </div>
           <div class="item bg-gradient">
-            <a href="emp_dev_livros.php">Pesquisar Livros</a>
+            <a href="livro_pesquisar.php">Pesquisar Livros</a>
           </div>
     
 

@@ -18,7 +18,7 @@
                 <h2>Livro :: Cadastrar</h2>
                 <div class="form-group">
                     <label>ISBN</label>
-                    <input type="text" class="form-control" required="" name="isbn">
+                    <input type="text" class="form-control" required="" placeholder="Código ISBN" name="isbn">
                 </div>
 
                 <div class="form-group">
@@ -28,12 +28,12 @@
 
                 <div class="form-group">
                     <label>Ano de Publicação</label>
-                     <input type="text" class="form-control" required="" name="anoPublicacao">
+                     <input type="text" class="form-control" required="" placeholder="Ano de Publicação" name="anoPublicacao">
                 </div>
 
                 <div class="form-group">
                     <label>Editora</label>
-                    <input type="text" class="form-control" required="" name="editora">
+                    <input type="text" class="form-control" required="" placeholder="Editora" name="editora">
                 </div>
 
 
@@ -44,7 +44,7 @@
 
                 <div class="form-group">
                     <label>Quantidade Disponível</label>
-                    <input type="text" class="form-control" required="" name="qtdDisponivel">
+                    <input type="text" class="form-control" required="" placeholder="Quantidade Disponível" name="qtdDisponivel">
                 </div>
 
 
