@@ -37,15 +37,18 @@
 
     // Executa o statement
     if ($comando->execute()) {
-        echo "<h1 class='alert alert-success'>Tarefa atualizada com sucesso!</h1>";
+        echo "<h1 class='alert alert-success'>Livro atualizado com sucesso!</h1>";
     } else {
-        echo "<h1 class='alert alert-danger'>Erro ao atualizar a tarefa:</h1> " ;
+        echo "<h1 class='alert alert-danger'>Erro ao atualizar o livro:</h1> " ;
     }
 
     // Fecha o statement e a conexão
     $comando->close();
     $conexao->close();
     ?>
+                        <a href="index.php">
+                        <button type="button" class="btn btn-danger" name="btVoltar">Voltar</button>
+                        </a>
 </body>
 
 </html>

@@ -41,5 +41,8 @@
     $conexao->close();
 
     ?>
+                        <a href="index.php">
+                        <button type="button" class="btn btn-danger" name="btVoltar">Voltar</button>
+                        </a>
 </body>
 </html>

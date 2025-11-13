@@ -18,7 +18,6 @@
 
                     <h2>Usuário :: Cadastrar</h2>
 
-                        <table class="table table-striped table-bordered">
                     <div class="form-group">
                         <label>Matrícula</label>
                         <input type="text" class="form-control" required placeholder="Matrícula do Usuário" name="matricula">
@@ -56,7 +55,6 @@
                             <button type="button" class="btn btn-danger" name="btVoltar">Voltar</button>
                         </a>
                     </div>
-</table>
 
                 </div>
             </div>

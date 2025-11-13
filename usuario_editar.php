@@ -42,7 +42,7 @@
         $tipo_usuario = $registro["tipo_usuario"];
         $data_cadastro = $registro["data_cadastro"];
     } else {
-        echo "<h4 style='color:red;'>Nenhum usuário encontrado com a matrícula fornecida.</h4>";
+        echo "<h4>Nenhum usuário encontrado com a matrícula fornecida.</h4>";
     }
 
     $comando->close();

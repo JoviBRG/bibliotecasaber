@@ -22,7 +22,7 @@
     $qtd_total = "";
     $qtd_disponivel = "";
     // O ID do registro que você quer buscar
-    $isbn = $_POST["txtISBN"]; // Por exemplo, buscar o usuário com ID 5
+    $isbn = $_POST["txtISBN"];
     
     // Prepara a instrução SQL com um placeholder '?'
     $sql = "SELECT * FROM livro WHERE isbn = ?";
