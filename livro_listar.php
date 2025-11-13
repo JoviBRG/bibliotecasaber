@@ -22,7 +22,7 @@
                     <h2>Livro :: Listar</h2>
 
                     <div class="form-group">
-                        <table>
+                        <table class="table table-striped table-bordered">
                              <tr>
                                 <th>ISBN</th>
                                 <th>Nome</th>

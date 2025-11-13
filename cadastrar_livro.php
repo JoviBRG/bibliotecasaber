@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tarefa :: Marcar</title>
+    <title>Livro :: Cadastrar</title>
     <?php
     include "referencias.php";
     ?>
@@ -16,6 +16,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <h2>Livro :: Cadastrar</h2>
+                                        <table class="table table-striped table-bordered">
                 <div class="form-group">
                     <label>ISBN</label>
                     <input type="text" class="form-control" required="" placeholder="Código ISBN" name="isbn">
@@ -46,6 +47,7 @@
                     <label>Quantidade Disponível</label>
                     <input type="text" class="form-control" required="" placeholder="Quantidade Disponível" name="qtdDisponivel">
                 </div>
+</table>
 
 
                 <br>

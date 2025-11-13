@@ -14,7 +14,8 @@
 <body>
   <main class="bg-light">
 
-
+  <table>
+        <td>
           <div class="item bg-gradient">
             <a href="cadastrar_livro.php">Cadastrar Livro</a>
           </div>
